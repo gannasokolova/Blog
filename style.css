@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    line-height: 17px;
+    font-family: Arial;
+    font-size: 14px;
+    color:rgba(1, 0, 38, 0.88);
+    text-indent:30px;
+}
+h1,h2{
+    color:#279827;
+}
+.name, .header_center{
+    margin: 20px auto;
+    width: 50%;
+}
+a{
+    padding:1%;
+    color:rgba(97, 24, 20, 0.85);
+    font-weight:bold;
+    font-size:1em;
+}
+.photo img{
+    width: 150px;
+    padding: 10px;
+    margin: 0;
+    float: left;
+    height: 100%;
+}
+.header{
+    float: left;
+    min-width:555px;
+    margin: 10px;
+    padding: 15px;
+    border: 3px solid green;
+    box-shadow: 0 1px 10px 5px #f1f1f2;
+    border-radius: 10px;
+}
+.education{
+ width: 650px;
+    display: inline-block;
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.content_1{
+    width: 620px;
+    float:left;
+}
+.content_2{
+    width: 620px;
+    display: inline-block;
+}
+.content_1>p, .content_2>p{
+    font-weight: bold;
+    color:#006000;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+    color:#006000;
+}
+li {
+    list-style: none;
+}
+li:before{
+    content: url("marker.jpg");
+}
+.up{
+    float:right;
+}
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #272727;
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    font-family: Tahoma, Geneva, sans-serif, Arial;
+    box-shadow: 0 0 0 2px rgba(122, 122, 122, 0.5);
+}
+
+@media (max-width: 800px){
+    .name, .header_center{
+        width: 100%;
+    }
+}
